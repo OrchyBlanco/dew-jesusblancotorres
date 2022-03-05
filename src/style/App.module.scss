@@ -1,0 +1,45 @@
+// Color
+$brown: #2b2520;
+$green: #39dbc2;
+$pink: #f41fbf;
+$yellow: #ffed28;
+$purple: #b028ff;
+$blue: #49A7FF;
+$red: #ff3838;
+$orange: #db7953;
+
+// Size
+$extra-large: 110px;
+$large: 84px;
+
+
+header {
+    display: flex;
+    justify-content: center;
+    
+  }
+
+.title{
+    $random-text: 'Peliculas';
+    position: relative;
+    text-transform: uppercase;
+    font-size: $extra-large;
+    font-family: 'Catamaran', sans-serif;
+    color: rgba(white, 0.8);
+    margin: 1rem;
+    &:before {
+      position: absolute;
+      content: $random-text;
+      color: rgba($blue, 0.8);
+      top: 5px;
+      left: 10px;
+    }
+    &:after {
+      z-index: -1;
+      position: absolute;
+      content: $random-text;
+      color: rgba($red, 0.8);
+      top: -5px;
+      left: 8px;
+    }
+}

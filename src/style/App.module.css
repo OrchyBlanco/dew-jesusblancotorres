@@ -1,0 +1,35 @@
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.title {
+  position: relative;
+  text-transform: uppercase;
+  font-size: 110px;
+  font-family: 'Catamaran', sans-serif;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 1rem;
+}
+
+.title:before {
+  position: absolute;
+  content: "Peliculas";
+  color: rgba(73, 167, 255, 0.8);
+  top: 5px;
+  left: 10px;
+}
+
+.title:after {
+  z-index: -1;
+  position: absolute;
+  content: "Peliculas";
+  color: rgba(255, 56, 56, 0.8);
+  top: -5px;
+  left: 8px;
+}
+/*# sourceMappingURL=App.module.css.map */

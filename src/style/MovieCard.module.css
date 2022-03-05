@@ -1,0 +1,17 @@
+.movieCard{
+   list-style: none;
+   font-size:1.2rem;
+   text-align: center;
+}
+.movieImage{
+    border-radius:1rem;
+    background-color:azure;
+    width: 230px;
+    height: 345px;   
+}
+@media (max-width:560px) {
+    .movieImage{
+        width: 90%;
+        height: auto;
+    }
+}
