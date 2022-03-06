@@ -32,4 +32,14 @@ header {
   top: -5px;
   left: 8px;
 }
+
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 650px) {
+  .title {
+    font-size: 80px;
+  }
+}
 /*# sourceMappingURL=App.module.css.map */

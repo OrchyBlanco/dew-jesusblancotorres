@@ -2,6 +2,11 @@
    list-style: none;
    font-size:1.2rem;
    text-align: center;
+   transition: transform 1s ease;
+}
+.movieCard:hover{
+    
+    transform:scale(1.1);
 }
 .movieImage{
     border-radius:1rem;
@@ -9,7 +14,7 @@
     width: 230px;
     height: 345px;   
 }
-@media (max-width:560px) {
+@media (max-width:650px) {
     .movieImage{
         width: 90%;
         height: auto;

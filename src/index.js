@@ -1,10 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './style/index.css';
-import {App} from './Components/App';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./style/index.css";
+import { App } from "./components/App";
+
+ReactDOM.render(<App />, document.getElementById("root"));
 
 
-
+/*
 function Contenido({ titulo, children}){
 
 //Obtener datos desde props
@@ -25,10 +27,4 @@ function Contenido({ titulo, children}){
   </div>
   )
 }
-
-ReactDOM.render(
-  
-   <App/>
-  ,
-  document.getElementById('root')
-);
+*/

@@ -10,7 +10,7 @@ $orange: #db7953;
 
 // Size
 $extra-large: 110px;
-$large: 84px;
+$large: 80px;
 
 
 header {
@@ -42,4 +42,12 @@ header {
       top: -5px;
       left: 8px;
     }
+}
+a{
+  text-decoration: none;
+}
+@media (max-width:650px) {
+  .title{
+    font-size: $large;
+  }
 }

@@ -1,0 +1,30 @@
+.detailsContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.col {
+  max-width: 400px;
+  margin: 15px;
+  height: auto;
+  height: 80%;
+}
+
+.peliculaImg {
+  border-radius: 15px;
+}
+
+.peliculaDetalles {
+  font-size: 1.5rem;
+}
+
+.firstItem {
+  margin-top: 0;
+}
+/*# sourceMappingURL=DetallesPelicula.module.css.map */
