@@ -18,8 +18,6 @@ function Contenido({ titulo, children}){
 //Deconstruyendo props
 //const { titulo, contenido}=props;
 
-
-
   return (
   <div className="container">
     <h1>{titulo}</h1>

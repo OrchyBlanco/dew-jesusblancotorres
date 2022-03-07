@@ -1,0 +1,39 @@
+.buscarContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.buscarBox {
+  position: relative;
+}
+
+.buscarInput {
+  font-size: 1.2rem;
+  height: 30px;
+  border-radius: 10px;
+  padding: 5px 30px 5px 10px;
+  border: 1px solid #49A7FF;
+}
+
+.buscarButton {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  cursor: pointer;
+  height: 100%;
+  border: none;
+  background: none;
+}
+
+.buscarInput:focus,
+.buscarButton:focus {
+  outline: none;
+  border: 1px solid #ff3838;
+  -webkit-box-shadow: 3px 3px 5px #ff6b6b;
+          box-shadow: 3px 3px 5px #ff6b6b;
+}
+/*# sourceMappingURL=Buscador.module.css.map */
