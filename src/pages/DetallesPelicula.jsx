@@ -4,6 +4,7 @@ import { get } from "../utils/httpCliente";
 
 import style from "./style/DetallesPelicula.module.css";
 import { Spinner } from "../components/Spinner";
+import placeholder from "../components/img/placeholder.png";
 
 export function DetallesPelicula() {
 
@@ -32,8 +33,8 @@ export function DetallesPelicula() {
   if(!movie){
     return null;
   }
+  const imageUrl = movie.poster_path ? "https://image.tmdb.org/t/p/w500" + movie.poster_path : placeholder; 
   
-  const imageUrl = "https://image.tmdb.org/t/p/w500" + movie.poster_path;
   return (
     <div className={style.detailsContainer}>
       <img
